@@ -2,14 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CRM Empresarial | Transport AI",
+  title: "Transport AI | CRM empresarial",
   description:
-    "Demostración interactiva de un CRM empresarial de Transport AI para gestionar clientes, oportunidades comerciales, tareas y seguimiento.",
-  applicationName: "Transport AI CRM",
-  robots: {
-    index: false,
-    follow: false,
-  },
+    "Demo interactiva de CRM empresarial de Transport AI para gestionar clientes, contactos y oportunidades comerciales.",
 };
 
 export default function RootLayout({
